@@ -21,7 +21,7 @@ This is a simple REST API that allows creating, reading, updating, and deleting 
       "title": "Note title",
       "body": "Note body content" 
     }*
-    Returns 400 if title or body is missing.
+     - Returns 400 if title or body is missing.
 
 - Update an existing note
   - PUT /notes/:id
